@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  height: 70px;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.header__right {
+  display: flex;
+  margin: 20px;
+  align-items: center;
+}
+
+.header__right__item {
+  margin: 20px;
+}
+
+.header__right__item > button {
+  padding: 10px;
+  background: #1472e5;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  border-radius: 10px;
+  cursor: pointer;
+}
