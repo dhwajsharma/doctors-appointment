@@ -7,8 +7,16 @@ import vector from "../../assets/1_Vector.png";
 import { AiOutlineSearch } from "react-icons/ai";
 import MainCards from "../MainCards/MainCards";
 import MainCard from "../MainCard/MainCard";
+import Specialties from "../Specialties/Specialties";
 
 const Main = () => {
+  const headingArr = [
+    "Critical Care",
+    "Primary Care",
+    "Orthopedics",
+    "Neuro Surgeon",
+  ];
+
   return (
     <div className="main">
       <div className="main__find">
@@ -38,22 +46,9 @@ const Main = () => {
             <h2>Top-searched specialties</h2>
           </div>
           <div className="main__specialties__boxes">
-            <div className="main__specialties__box">
-              <img src={vector} alt="" />
-              <h2>Critical Care</h2>
-            </div>
-            <div className="main__specialties__box">
-              <img src={vector} alt="" />
-              <h2>Primary Care</h2>
-            </div>
-            <div className="main__specialties__box">
-              <img src={vector} alt="" />
-              <h2>Orthopedics</h2>
-            </div>
-            <div className="main__specialties__box">
-              <img src={vector} alt="" />
-              <h2>Neuro Surgeon</h2>
-            </div>
+            {headingArr.map((item) => (
+              <Specialties key={item} heading={item} />
+            ))}
           </div>
         </div>
 
