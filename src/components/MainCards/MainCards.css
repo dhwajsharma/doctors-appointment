@@ -1,0 +1,29 @@
+.mainCards {
+  margin-left: 20px;
+  padding: 10px;
+  width: 394px;
+  height: 300px;
+  background: #ffffff;
+  border: 1px solid #91d5ff;
+  border-radius: 8px;
+}
+
+.mainCards__img {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.mainCards__img > p {
+  background: #f8f8f8;
+  height: 100%;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.mainCards__img > img {
+  width: 100px;
+  object-fit: contain;
+  border-radius: 50%;
+  background: #7689ef;
+}

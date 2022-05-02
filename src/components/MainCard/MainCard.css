@@ -1,0 +1,19 @@
+.main__cards__items {
+  display: flex;
+  align-items: center;
+  padding: 70px;
+  justify-content: space-between;
+}
+
+.main__cards__top__left {
+  display: flex;
+  flex-direction: column;
+}
+
+.main__cards__top__left > h2 {
+  margin-bottom: 20px;
+}
+
+.main__cards__top__right {
+  display: flex;
+}
