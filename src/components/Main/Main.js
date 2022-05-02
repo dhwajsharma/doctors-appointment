@@ -59,7 +59,14 @@ const Main = () => {
 
         <div className="main__cards">
           <MainCard />
-          <MainCard />
+          <MainCard
+            heading="Dentists with the 
+shortest wait time"
+            subHeading="91% of patients spent less than 
+30 minutes in the waiting room 
+for these Dentists
+"
+          />
         </div>
       </div>
     </div>
